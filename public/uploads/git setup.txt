@@ -1,0 +1,11 @@
+git config --global user.name ""
+git config --global user.email ""
+create new ssh key :ssh-keygen -t ed25519
+to copy ssh key :cat ~/.ssh/id_ed25519.pub
+paste on github settings 
+create folder
+add file
+git add .
+git commit -m ""
+git remote add origin https:// 
+git push -u origin master
